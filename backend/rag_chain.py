@@ -65,14 +65,14 @@ def evaluate(state: State):
 
     Question: {question}
 
-    Criteria for relevance:
+    Criteria for determining relevance:
     1. If the question asks about my education, skills, interests, work experience, personal attributes, or any other background information, it should be considered relevant.
     2. If the question is general or does not clearly request personal information, it should be considered not_relevant.
     3. If it is uncertain whether the question is related, make a reasonable guess based on the information available.
     4. Do not be too strict in your evaluation. If the question is somewhat related, consider it relevant.
 
     Respond with:
-    "relevant" if the question meets the criteria.
+    "relevant" if the question meets one of the criteria.
     "not_relevant" if the question is unrelated or inappropriate.
     """
 
